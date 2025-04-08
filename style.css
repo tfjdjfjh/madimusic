@@ -1,23 +1,75 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
   color: #333;
 }
 
-h1 {
-  color: #111;
+header {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
 }
 
-.music-list {
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+}
+
+.search {
+  margin-top: 10px;
+}
+
+.search input {
+  padding: 5px;
+  width: 200px;
+}
+
+.search button {
+  padding: 6px 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
   background: white;
   padding: 15px;
-  border-radius: 8px;
-  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  max-width: 500px;
+  margin: auto;
 }
 
-a {
+.song {
+  margin-bottom: 20px;
+}
+
+.song a {
   color: blue;
   text-decoration: none;
-  margin-left: 10px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
 }
